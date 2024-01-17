@@ -1,0 +1,19 @@
+{
+  "code": "corals-cms",
+  "name": "Content Management System",
+  "author": "Corals",
+  "type": "module",
+  "description": "Manage pages, posts, news, categories, tags with Page Builder",
+  "namespace": "Corals\\Modules\\CMS\\",
+  "provider": "CMSServiceProvider",
+  "version": "5.0",
+  "folder": "CMS",
+  "load_order": "9999",
+  "autoload": "psr-4",
+  "icon": "fa fa-desktop",
+  "require": {
+    "corals-foundation": "^6.0",
+    "corals-settings": "^5.0",
+    "corals-utility": "^4.0"
+  }
+}

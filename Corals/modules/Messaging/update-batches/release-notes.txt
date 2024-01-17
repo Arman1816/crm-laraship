@@ -1,0 +1,22 @@
+3.0
+upgrade to laravel 7
+new LARASHIP features
+-------------------------------------
+2.0
+Laravel 6 Upgrade
+------------------------------------
+1.2
+add permission view all discussion
+------------------------------------
+1.0.2
+- General Fixes
+---------------------------------------------
+1.0.1
+Fix Bug with discussions count
+---------------------------------------------
+1.0
+-Add tables (messaging_discussions, messaging_messags, messaging_participations).
+-Add new menu items (Messaging, Discussions).
+-Add permissions for each model (crud).
+-Add new settings for (discussions pagination, multiple participations)
+==============================================

@@ -1,0 +1,9 @@
+{
+  "type": "admin",
+  "name": "corals-quantum-admin",
+  "extends": null,
+  "caption": "Corals Quantum Admin",
+  "version": "2.4.1",
+  "assetPath": "assets\/themes\/quantum",
+  "platform": "Subscription"
+}

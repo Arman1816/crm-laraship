@@ -1,0 +1,21 @@
+{
+  "type": "frontend",
+  "name": "corals-marketplace-pro",
+  "caption": "Corals Marketplace Pro",
+  "extends": null,
+  "assetPath": "assets\/themes\/marketplace-pro",
+  "version": "2.5.7",
+  "css": [
+    "font-awesome-4.7.0/css/font-awesome.min.css",
+    "css/vendor.min.css",
+    "css/styles.css",
+    "plugins/Ladda/ladda-themeless.min.css",
+    "css/custom.css"
+  ],
+  "js": [
+    "js/scripts.min.js",
+    "js/functions.js",
+    "js/theme.js"
+  ],
+  "platform": "Marketplace"
+}

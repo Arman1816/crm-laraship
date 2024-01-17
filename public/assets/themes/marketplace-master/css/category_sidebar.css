@@ -1,0 +1,30 @@
+.category-sidebar .mega {
+    padding: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.2s linear;
+    position: absolute;
+    top: -120px;
+    background: #FFF;
+    z-index: 10;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    -webkit-box-shadow: 2px 3px 5px 0px rgba(204, 204, 204, 1);
+    -moz-box-shadow: 2px 3px 5px 0px rgba(204, 204, 204, 1);
+    box-shadow: 2px 3px 5px 0px rgba(204, 204, 204, 1);
+}
+
+.category-sidebar .mega.open {
+    /*display: block;*/
+    visibility: visible;
+    opacity: 1;
+}
+
+.category-sidebar .category-col {
+    width: 275px;
+    padding: 3px;
+}
+
+.category-sidebar .mega .first-level-sub-cat > li {
+    padding-left: 5px;
+}

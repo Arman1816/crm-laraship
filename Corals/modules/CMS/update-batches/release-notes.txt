@@ -1,0 +1,132 @@
+4.1
+Allow Guest Comments
+add as_row flag to cms blocks
+
+-------------------------------------
+4.0
+upgrade to laravel 7
+new LARASHIP features
+-------------------------------------
+3.6
+=====================
+Add Properties Columns
+
+3.5.3
+comments approval
+----------------------
+3.5.2
+remove some xss
+===================
+3.5.1
+Fix Constructor route method issue
+--------------------------------
+3.5
+fix content featured image
+fix news author
+--------------------------------
+3.4
+add route missing api version
+--------------------------------
+3.3
+add reply to in the contact email
+-------------------------------
+3.2
+add downloads count and fixes
+--------------------------------
+3.1
+CMS Feed
+-------------------------------
+3.0.2
+Fix Message response on Contact form
+-------------------------------
+
+3.0.1
+-----------------------------
+Fix Category Deletion issue
+
+3.0
+------------------------------------
+Laravel 6 Upgrade
+
+
+2.8
+use SEOItems in generating seo
+------------------------------------
+2.7.1
+-----------------------------
+Fix Blog 404
+
+2.6
+Add Setting news_page_slug
+
+2.5
+Add Menu Testimonials and download
+Add permission Testimonial and download
+Add column properties and change value type
+
+2.3
+API Support
+------------------------------------
+2.4
+Add bulk action in CMS
+
+2.2
+Add news ticker from a RSS feed.
+------------------------------------
+2.1
+- Add two settings new ticker (number of news item),(enable news ticker)
+------------------------------------
+2.0.1
+- fix content private page  pending aubscription
+------------------------------------
+
+1.9.2
+- fix content private page relation
+------------------------------------
+1.9.1
+Fix display translable content at frontend
+------------------------------------
+1.9
+-Add two table for blocks and widgets
+-Add permissions for blocks and widgets
+-Add new menu item (Blocks)
+-Add demo block and widget (pre footer block)
+-Add page content for faqs
+
+------------------------------------------------
+1.8
+-Add (belongs_to) to categories table
+-Update type value for posts
+-Add FAQs to menu
+-Add FAQs permissions
+-Add Faqs page slug settings
+-
+------------------------------------------------
+1.7.1
+---------------------------------
+Add Permission Admin
+
+1.6
+- use Tag from Utility module
+------------------------------------------------
+1.4.9
+- add new boolean column (internal) to posts table.
+- add internal structure for blog and pages.
+------------------------------------------------
+1.4.7
+- add translation feature and enhance breadcrumbs
+- add formatStatusAsLabels helper
+------------------------------------------------
+1.4.6
+- add CMS category for related settings
+-------------------------------------------------
+1.4.5
+- fix uninstall postables table remove
+---------------------------------------------------
+1.4.4
+- fix posts casts.
+    move casts from Post model to parent Content model.
+-------------------------------------------------
+1.4.1
+- add setKeywords to Corals/modules/CMS/Classes/SEOTools.php
+- use setKeywords inside setSEO method in Corals/modules/CMS/Http/Controllers/FrontendController.php

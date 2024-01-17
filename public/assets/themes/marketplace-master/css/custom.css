@@ -1,0 +1,221 @@
+@import "./pricingTable.min.css";
+
+.required-field > label::after {
+    content: " \f005";
+    color: #F44336;
+    font-family: FontAwesome;
+    font-size: .6em;
+    vertical-align: super;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    display: none !important;
+}
+
+.form-group.has-error .help-block {
+    color: #ff1f1f;
+}
+
+@media (max-width: 768px) {
+    .sw-theme-arrows > ul.step-anchor > li > a, .sw-theme-arrows > ul.step-anchor > li > a:hover {
+        padding: 8px !important;
+    }
+}
+
+::-webkit-inner-spin-button {
+    display: none;
+}
+
+select.form-control[multiple] {
+    background: none;
+}
+
+.sw-btn-next {
+    margin-left: 10px !important;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.icheckbox_flat-blue, .iradio_flat-blue {
+    width: 21px;
+    height: 21px;
+}
+
+a.clickable-object {
+    position: relative;
+    display: inline-block;
+}
+
+a.clickable-object:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.tab-content {
+    padding-top: 2rem;
+}
+
+#cart-details .table-responsive {
+    border-radius: 5px;
+}
+
+#cart-details table thead tr {
+    background-color: #50c6e9;
+    color: #FFF;
+}
+
+#cart-details table thead td, #cart-details table thead th {
+    text-align: left;
+}
+
+.custom-control {
+    display: inline-block;
+}
+
+.sw-theme-arrows > ul.step-anchor {
+    display: flex !important;
+}
+
+.shipping-options label {
+    padding-left: 0;
+    display: block;
+}
+
+.sw-btn-group .btn {
+    background-color: #f5f5f5;
+    border-color: #e1e7ec;
+}
+
+.sw-btn-group .btn:hover {
+    background-color: #dcdbdb;
+}
+
+.btn-group .btn:first-child:not(:last-child):not(.dropdown-toggle).btn-secondary, .btn-group .btn:first-child:not(:last-child):not(.dropdown-toggle).btn-outline-secondary {
+    border-right: 1px solid #e1e7ec;
+}
+
+.btn-group .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    margin-right: 10px;
+    padding-right: 22px;
+
+}
+
+.just-padding {
+    padding: 15px;
+}
+
+.list-group.list-group-root {
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px solid rgb(225, 231, 236);
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+    padding-left: 30px;
+}
+
+.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+    padding-left: 45px;
+}
+
+.list-group-item .glyphicon {
+    margin-right: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.list-group-item.active {
+    cursor: pointer;
+    pointer-events: initial;
+}
+
+.site-search {
+    width: 98%;
+}
+
+.cart-quantity {
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.shipping-options .custom-radio {
+    display: block;
+}
+
+.category-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 30px 20px;
+    border: 1px solid #e5e5e5;
+    background-color: #fff;
+    text-decoration: none
+}
+
+.category-card .category-card-info {
+    margin: 0 auto;
+    padding: 15px 0
+}
+
+.category-card .category-card-title {
+    margin-bottom: 12px;
+    color: #232323;
+    font-size: 24px
+}
+
+.category-card .category-card-subtitle {
+    margin: 0;
+    color: #999;
+    font-size: 13px;
+    font-weight: normal
+}
+
+.category-card .category-card-thumb {
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.category-card .category-card-thumb > img {
+    display: block;
+    width: 100%;
+    transition: all .4s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+.category-card:hover .category-card-thumb > img {
+    -webkit-transform: scale(0.94);
+    -ms-transform: scale(0.94);
+    transform: scale(0.94)
+}
+
+@media (max-width: 576px) {
+    .category-card {
+        padding: 15px 25px
+    }
+}
+
+
+
+button, html [type="button"], [type="reset"], [type="submit"] {
+    -webkit-appearance: button-bevel;
+}
+
+@media (max-width: 1070px) {
+    .cart:hover > .toolbar-dropdown {
+        display: block !important;
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "frontend",
+  "name": "corals-marketplace-marty",
+  "caption": "Corals Marketplace Marty",
+  "extends": null,
+  "assetPath": "assets\/themes\/marketplace-marty",
+  "version": "2.5.7",
+  "css": [
+    "css/bootstrap/bootstrap.min.css",
+    "css/style.css",
+    "css/custom.css"
+  ],
+  "js": [
+    "js/vendor/jquery/jquery-1.12.3.js",
+    "js/vendor/bootstrap.min.js",
+    "js/dashboard.js",
+    "js/main.js"
+  ],
+  "platform": "Marketplace"
+}

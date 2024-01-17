@@ -1,0 +1,17 @@
+{
+  "code": "corals-advert",
+  "name": "Advertisement Module",
+  "author": "Corals",
+  "type": "module",
+  "description": "Advertisement Management Ads,Banners",
+  "namespace": "Corals\\Modules\\Advert\\",
+  "provider": "AdvertServiceProvider",
+  "version": "4.0",
+  "load_order": "800",
+  "folder": "Advert",
+  "autoload": "psr-4",
+  "icon": "fa fa-bullhorn",
+  "require": {
+    "corals-foundation": "^6.0"
+  }
+}

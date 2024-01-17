@@ -1,0 +1,182 @@
+5.6.1
+Shipping taxable
+Support taxable prices option
+------------------------
+5.5.8
+Support when no payment details required in checkout.
+-----------------------
+5.5.3
+add duplicate products feature
+-----------------------
+5.5
+-----------------------
+fixed commision amount
+
+5.4.4
+sagepay 3ds support
+----------------------------------------
+5.4.3
+active store check for public
+-----------------------------------------
+5.4.2
+add Hooks to CheckoutRequest
+----------------------------------------
+5.3.3
+support gallery upload on product creation
+-----------------------------------------
+5.3.2
+sku code editable
+add csv_delimiter config
+Product Import set Default Attribute Sets in case of empty
+Enhance SKU code in auto generation
+-----------------------------
+5.3.1
+Fix dt export
+-----------------------------
+5.1.1
+fix products export
+=============================
+5.1
+Changes to 2FA
+=============================
+5.0.2
+add special product export feature
+--------------------------------
+5.0.1
+add new functions to shop:
+getRandomTags
+getRandomProductsOfCategories
+getLatestReviews
+trackUserAction
+getRecentlyViewedProducts
+getProductsBasedOnViewedCategories
+--------------------------------
+4.7.2
+use GatewayStatusTrait from foundation
+-------------------------------
+4.7.1
+support attribute of type color/image
+---------------------------
+4.7
+sku bulk generate
+sku bulk edit
+import marketplace products
+----------------------------
+4.5.1
+- Neopay support
+- add code to store
+---------------------------
+4.5
+
+fix shippo shipment tracking
+
+--------------------------
+
+4.4.1
+use gallery from utility
+-----------------------------
+4.4
+Major changes to shipping structure
+------------------------------
+4.2.1
+Category Heirarchy button invisible issue
+------------------------------------------
+4.2
+add code to Payment Transaction
+Integrate with TT
+------------------------------------
+4.1
+add fac payment gateway integration
+add NMI payment gateway integration
+-------------------------------------
+4.0
+upgrade to laravel 7
+new LARASHIP features
+-------------------------------------
+3.1.1
+=================
+Fix Admin
+
+3.1
+===================
+remove some xss
+
+3.0
+============================
+php 7.4 support
+
+
+---------------------------------------
+2.8.1
+Fix Constructor route method issue
+----------------------------
+2.8
+Fix issue with Shipping & Transaction
+
+
+----------------------------
+2.7
+Marketplace API
+----------------------------------
+2.6
+Marketplace API
+----------------------------------
+2.4
+Fix Error  View [shop.partials.tabs_items] not found
+add parent category field to category form
+----------------------------------
+2.3
+-----------------------------------
+support category multiple level
+-----------------------------------
+2.1
+Add platform to module.json for laraship installer
+------------------------------------
+2.0
+Laravel 6 Upgrade
+------------------------------------
+
+1.5.2
+---------------------------
+Add SCA support for stripe
+
+
+
+1.5
+-------------------------------
+Add Database Cart
+Add Price Per Customer classification
+
+1.4.6
+
+Add Online Refund Functionality
+
+-----------------------
+1.4.5
+
+Add Order Filter
+
+-------------------------------
+
+1.4.4
+Edit validation in wizard
+
+1.4.3
+Checkout Guest
+
+1.4.2
+Add permission Brand
+
+1.2.3
+-------------------------------
+Fix Bugs on Discount and Tax class calculations
+
+1.2.1
+-------------------------------
+Add Category Policy
+
+1.2
+- fix installer and dependencies
+-------------------------------------
+1.1
+- fix addContentAccess function

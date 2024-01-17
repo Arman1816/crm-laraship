@@ -1,0 +1,27 @@
+4.0
+upgrade to laravel 7
+new LARASHIP features
+-------------------------------------
+3.3.1
+Fix Constructor route method issue
+-----------------------------------
+3.1
+Add platform to module.json for laraship installer
+------------------------------------
+3.0
+Laravel 6 Upgrade
+------------------------------------
+2.1
+- change to subscription hook
+-----------------------------------------------------
+
+2.0
+- add eCommerce Module Theme Support
+-----------------------------------------------------
+
+1.3
+- add translation feature and enhance breadcrumbs
+- add formatStatusAsLabels helper
+-----------------------------------------------------
+1.2
+- Fix Bugs at My Referral Links Screen
